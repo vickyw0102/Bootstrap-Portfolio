@@ -43,27 +43,19 @@ p {
 
   /* Navigation links */
 .customNav a {
-    color: white !important;
+    color: rgb(102, 31, 161) !important;
 }
 .navCTA {
     font-size: 15px;
 }
 /* Jumbotron  */
 .background {
-    
-    padding:0px
+    background-image: url(../images//Hong-kong-view.smaller.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(100vh - 25px);
+    width: 1028px;
+    height: 578px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-/* Jumbotron copy */
-.jumboCopy {
-    width: 70%;
-    min-width: 500px;
-    max-width: 700px;
-    color: white;
-    text-align: center;
 }
