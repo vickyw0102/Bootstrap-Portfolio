@@ -14,15 +14,15 @@
 <!-- Navigation bar -->
 <section id="navbar">
     <nav class="navbar navbar-expand-lg bg-body-tertiary customNav">
-    <div class="container">
-            <a class="navbar-brand" href="#" style= width:100%>Vicky Wong</a>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style= width:100% >Vicky Wong</a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">About Me</a>
+                    <a class="nav-link active" aria-current="page" href="#Aboutme">About Me</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Work</a>
+                    <a class="nav-link active" aria-current="page" href="#work">Work</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="#">Skills</a>
@@ -40,28 +40,33 @@
 
 <!-- Jumbotron  hero section-->
 <section id="firstbanner">
-    <div class="p-5 mb-4 bg-body-tertiary rounded-3 background">
-        <div class="container-fluid py-5 jumboCopy">
+    <div class="p-5 bg-body-tertiary rounded-3 background">
+        <div class="container jumboCopy">
             <h1 class="display-5 fw-bold">Vicky Wong</h1>
             <p class="col-md-12 fs-4"> Coming from HK and live UK for 3 years</p>
-           
         </div>
     </div>
 </section>
 
 <!-- Jumbotron  About Me-->
-<section id="Aboutme">
-    <div class="p-5 mb-4 bg-body-tertiary rounded-3 Aboutmeinner" >
-        <div class="sectionHeading1" style="text-align: left; margin-bottom:50px; background-color:yellow; ">
-            <h2>About Me</h2>
+<section div id="Aboutme">
+    <div class="Aboutmeinner" >
+        <div class="sectionHeading">
+            <h2 class="display-5 fw-bold">About Me</h2>
         </div>
-        <div class="Container" style="background-color:yellow;"">
+        <div class="Container">
             <div class="row profilepic">
                 <div class="col-lg-4 col-md-4 col-sm-12 Vickypic">
-                    <img src="images/Vicky pic.jpeg" style="width:200px; border-radius:50%;"> 
+                    <img src="images/Vicky pic.jpeg" style="width:300px; border-radius:50%;"> 
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12 text">
                     <h3>Mei Fung Wong</h3>
+                    <p>
+                    Text....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
+                    </p>
+                    <p>
+                    Text....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
+                    </p>
                     <p>
                     Text....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
                     </p>
@@ -74,9 +79,10 @@
 
 <!--  work section-->
     <!-- Cards -->
+<section id="work">
     <div class="container-fluid">
         <div class="sectionHeading">
-            <h2>Working Experience in UK & Hong Kong</h2>
+            <h2 class="display-5 fw-bold text-center">Working Experience in UK & Hong Kong</h2>
         </div>
         
     <div class="row work">
@@ -86,7 +92,10 @@
         <img src="images/Workfromhome (3).jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h3 class="card-title">Experience in UK from 2021 to 2023</h3>
+            <br>
             <p class="card-text">Self-employed</p>
+            <br>
+            <br>
             <a href="#" class="btn btn-warning">Check it out</a>
         </div>
         </div>
@@ -101,7 +110,10 @@
         <img src="images/payment.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h3 class="card-title">Payment Industry from 20xx to 20xx</h3>
+            <br>
             <p class="card-text">I am working in payment industry field for over 15 years.</p>
+            <br>
+            <br>
             <a href="#" class="btn btn-primary">Know more</a>
         </div>
         </div>
@@ -113,8 +125,10 @@
         <div class="card">
         <img src="images/Telecom.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-        <h3 class="card-title">Telecommunication from 20xx to 20xx</h3>
+        <h3 class="card-title">Telecommunication from 20xx to</h3>
+        <br>
             <p class="card-text">I was a sales and worked in Telecom industry over 10 years.</p>
+            <br>
             <a href="#" class="btn btn-success">know more</a>
         </div>
         </div>
@@ -123,60 +137,68 @@
 
     </div>
     </div>
-
+</section>
 <!-- end Work-->
 <!--  skill section-->
-<div class="container-fluid content">
-    <h2> What kind of skill I have?</h2>
+<section div id="Skills">
+    <div class="sectionHeading"></div>
+        <div class="container-fluid content">
+            <img src="images/skills.jpg" style="width:100%"> 
+                <h2 class="display-5 fw-bold text-center"> What kind of skill I have?</h2>
     <!-- Row 1 -->
-    <div class="row valueProp">
-        <div class="imageContainer">
+            <div class="row valueProp">
+            <div class="imageContainer">
 
-        <div class="Languages">
+            <div class="Languages">
     
-            <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/skills.jpg" style="width:200px; border-radius:50%;"> 
-            </div>
-            <div class="col-lg-8 col-md-8 col-sm-12">
-                <h3>Languages</h3>
-                <p>
-                Text....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
-                </p>
-            
-            </div>
-        </div>
-        
-    <!-- Row 2 -->
-        <div class="Office">
-        
-            <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/Office.jpg" style="width:200px; border-radius:50%;"> 
-            </div>
-            <div class="col-lg-8 col-md-8 col-sm-12">
-                <h3>Offices</h3>
-                <p>
-                Text...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
-                </p>
-            </div>
-        </div>
-<!-- Row 3 -->
-        <div class="skill3">
-        
-            <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/skills2.jpg" style="width:200px; border-radius:50%;"> 
-            </div>
-            <div class="col-lg-8 col-md-8 col-sm-12">
-                <h3>Education</h3>
-                <p>
-                Text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
-                </p>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="images/skills.jpg" style="width:200px; border-radius:50%;"> 
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                    <h3>Languages</h3>
+                    <p>
+                    Text....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
+                    </p>
                 
+                </div>
             </div>
+            
+        <!-- Row 2 -->
+            <div class="Office">
+            
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="images/Office.jpg" style="width:200px; border-radius:50%;"> 
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                    <h3>Offices</h3>
+                    <p>
+                    Text...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
+                    </p>
+                </div>
+            </div>
+        <!-- Row 3 -->
+            <div class="skill3">
+            
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="images/skills2.jpg" style="width:200px; border-radius:50%;"> 
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                    <h3>Education</h3>
+                    <p>
+                    Text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
+                    </p>
+                    
+                </div>
         </div>
     </div>
+</section>
     <!-- End skill -->
 <!--  About/contact section-->
 
 <!--  footer section-->
+<!-- Footer -->
+<footer>
+
+</footer>
 </body>
 </html>
