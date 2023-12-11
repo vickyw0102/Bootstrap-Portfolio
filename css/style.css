@@ -65,13 +65,32 @@ p {
 /* Jumbotron copy */
 .jumboCopy {
     width: 100%;
-    margin-top: 10px;
-    min-height: 500px;
+    margin-top: 50px;
+    min-height: 700px;
     
-    color: #f3f2f5; ;
+    color: #f3f2f5; 
     text-align: right;
 }
 
+.SkillsBackground{
+    background-image: url(../images/skills2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: #f3f2f5 solid 8px;
+}
+.SkillsJumboCopy {
+    width: 100%;
+    margin-top: 450px;
+    max-height: 700px;
+    
+    color: #220377; 
+    text-align: left;
+}
 #Aboutme{
     background: #53a8b6; 
     width:100%; 
@@ -94,11 +113,12 @@ p {
 .Vickypic{
     border-right: #f5f3f8 dotted 8px ;
 }
+
 .work{
-    padding:50px;
+    padding-bottom: 50px;
     width:100%;
     max-height: 600vh;
-    min-height: 500px;
+    
 }
 .card >img{
     padding:10px;
@@ -106,10 +126,21 @@ p {
     height: 300px;
     border-radius: 10%;
 }
-.sectionHeading {
-    margin:50px;
+.workexperience{
+    padding:50px;
+    border-radius: 100% 0% 0% 0%;
+    display: flex;
+    justify-content: space-between; 
+    border-bottom: white solid 8px;  
+    margin-bottom: 100px; 
 }
-#Skills img{
+
+.sectionHeading {
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.content >img{
     width:100%;
-    max-height: 400px;
+    min-height: 700px;
+    
 }
