@@ -98,18 +98,17 @@ p {
 #Aboutme{
     background: #53a8b6; 
     width:100%; 
-    display: flex;
-
+    text-align: center;
+    padding:50px;
     border-bottom: #f3f2f5 solid 8px;
 }
 
 .profilepic {
     padding:50px;
-    display:flex;
-    justify-items:center;
+
     align-content:center;
     text-align:start;
-    margin: 200px 200px 100px 100px;
+    margin: 100px 200px 100px 100px;
     line-height: 1.5;
     font-size: 20px;
 
@@ -127,8 +126,11 @@ p {
 .card >img{
     padding:10px;
     width:100%;
-    height: 300px;
     border-radius: 10%;
+    
+}
+.card-img-top{
+    clip: rect(0px, 80px, 800px, 0px);
 }
 .workexperience{
     padding:50px;
