@@ -44,7 +44,7 @@ p {
 }
 /* Navigation dropdown menu */
 .dropdown-menu {
-    background: url("../images/transparency.png");
+    background: #00204a;
     background-color: transparent !important;
     background-size: cover;
 }
