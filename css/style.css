@@ -32,7 +32,7 @@ p {
     background: aqua;
 }
 .navbar-brand img {
- 
+
     padding-right: 15px;
     width: 100%;
 }
@@ -71,6 +71,7 @@ p {
 .jumboCopy {
     width: 100%;
     margin-top: 50px;
+    margin-right:500px;
     min-height: 700px;
     
     color: #f3f2f5; 
@@ -94,7 +95,13 @@ p {
     max-height: 700px;
     
     color: #00204a; 
-    text-align: left;
+}
+.SkillsJumboCopy >h3{
+    font-size: 50px;
+}
+
+.SkillsJumboCopy >p{
+    font-size: 30px;
 }
 #Aboutme{
     background: #53a8b6; 
