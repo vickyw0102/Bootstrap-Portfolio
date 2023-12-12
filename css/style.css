@@ -7,6 +7,9 @@ h1, h2, h3 , h4, h5, h6 {
     font-family: 'Abril Fatface';
 
 }
+menu >h1{
+    color:white;
+}
 p {
     font-family: 'Jura', sans-serif;
 }
@@ -17,7 +20,8 @@ p {
 .customNav {
     position: fixed;
     width: 100%;
-    background-color: #00204a;
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
     background-size: cover;
     z-index: 10;
     font-size: 20px;
@@ -28,31 +32,33 @@ p {
 
     
 }
-#navbar{
-    background: aqua;
-}
+
 .navbar-brand img {
 
-    padding-right: 15px;
-    width: 100%;
+    padding-right: 20px;
+    width: 65%;
 }
-.nav-item {
-    
-    margin: 0px 30px;
-    text-decoration:none;
-    text-align: left;
+.nav-item { 
+    margin: 0px 15px;
+}
+/* Navigation dropdown menu */
+.dropdown-menu {
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
 }
 
-
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #edf0f5;
+    text-decoration: none;
+    background: rgb(248, 246, 246);
+}
   /* Navigation links */
 .customNav a {
-    
-    color: rgb(31, 44, 161);
+    color: rgb(234, 234, 243) !important;
 }
 .navCTA {
-    
     font-size: 20px;
-
 }
 /* Jumbotron  */
 .background {
@@ -168,3 +174,38 @@ footer{
 .sectionHeding >h5{
     font-size: 200px;
 }
+
+
+@media screen and (max-width: 768px){
+    header ul {
+        display:none;
+    }
+    .customNav{
+        height:100px;
+    }
+
+    .navbar-toggler-icon{
+        display: block;
+        background-color: rgba(252, 252, 252, 0.6);
+        color:rgb(248, 244, 244);
+        font-size:35px;
+        position:absolute;
+        right:20px;
+        top:25px;
+        border:none;
+        cursor: pointer;
+        border-radius: 20%;
+    }    
+    .Vickypic{
+        border-radius: 20%;
+
+    }
+
+        }
+
+    }
+      }
+
+
+
+
