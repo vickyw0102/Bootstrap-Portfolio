@@ -104,11 +104,11 @@ p {
     color: #00204a; 
 }
 .SkillsJumboCopy >h3{
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .SkillsJumboCopy >p{
-    font-size: 30px;
+    font-size: 20px;
 }
 #Aboutme{
     background: #53a8b6; 
@@ -184,8 +184,67 @@ footer{
     .customNav{
         height:100px;
     }
+    .navbar-brand{
+        text-align: center;
+    #navbarSupportedContent{}
+    }
+    .background {
+        background-image: url(../images/Hong-kong-view.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        width: 100%;
+        max-height: 600px;
+        border-bottom: #f3f2f5 solid 8px;
+    }
+    .jumboCopy{
+        padding-top: 100px;
+    }
+    #Aboutme{
+        background: #53a8b6; 
+        width:100%; 
+        text-align: center;
+        padding:10px;
+        border-bottom: #f3f2f5 solid 8px;
+    }
+    
+    .profilepic {
+        padding:30px;
+    
+        align-content:center;
+        text-align:start;
+        margin: 0px 50px 50px 50px;
+        line-height: 1.5;
+        font-size: 20px;
+    
+    }
+    .Vickypic{
+        border-right: #f5f3f8 dotted 0px ;
+    }
+    .Aboutmetext{
+        padding-top:50px;
+    }
+    .card >img{
+        padding:10px;
+        width:100%;
+        border-radius: 10%;
+        
+    }
 
-
+    .workexperience{
+        padding:10px;
+        border-radius: 100% 0% 0% 0%;
+        display: flex;
+        justify-content: space-between; 
+        border-bottom: white solid 20px;  
+        margin-bottom: 100px; 
+    }
+    .workexperience .cardContainer{
+        padding-bottom: 50px;
+    }
+    footer{
+        text-align: center;
+    }
         }
 
 
